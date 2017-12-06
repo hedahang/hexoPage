@@ -1,6 +1,6 @@
 ---
 title: 基于Vue项目开发中遇到的坑及总结
-date: 2017-05-10 14:11:29
+date: 2017-08-10 14:11:29
 tags: 
 	- JavaScript
 	- Vue
