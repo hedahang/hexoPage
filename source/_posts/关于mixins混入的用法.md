@@ -10,7 +10,7 @@ tags:
 最近项目中要用到很多eCharts图表组件，需要在窗口尺寸发生变化时，重置图表的大小，此时如果在每个组件里面都去实现一段监听代码，代码重复太多了，此时就可以使用混入来解决这个问题，mixins是Vue提供的一种混合机制，用来更高效的实现组件内容的复用。
 
 
-**JS代码：**
+# JS代码：
 ``` javascript
 // 混入代码
 import { debounce } from "lodash";
@@ -40,7 +40,7 @@ export default {
 };
 ```
 <!-- more -->
-### 图表组件代码
+# 图表组件代码
 ``` html
 <template>
   <div class="chart"></div>
